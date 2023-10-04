@@ -1,0 +1,29 @@
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*app > H1 garante que pegue o filho dentro da tag*/
+#app > h1 {
+  color: #996dff;
+  margin-top: -5px;
+}
+
+/*align-self: flex-start: significa que o elemento flexível (um item dentro de um contêiner flexível) será alinhado no início do contêiner flexível. */
+#app > h2 {
+  align-self: flex-start;
+  margin-top: 50px;
+}
+
+#app > p {
+  align-self: flex-start;
+  text-align: justify;
+  width: 512px;
+  margin-top: -5px;
+}
+
+#app .placeholder {
+  color: #7c7c8a;
+  user-select: none;
+}

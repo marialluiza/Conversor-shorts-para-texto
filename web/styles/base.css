@@ -1,0 +1,24 @@
+body{
+  background-color: black;
+  margin: 0%;
+  padding: 0%;
+
+  box-sizing: border-box;
+  
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+
+  /*Display flex: o que estiver dentro se comportará como caixa */
+  /*flex-direction:Uma coisa fica em baixo da outra*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+body, 
+button, 
+input{
+font-family: 'Roboto', sans-serif;
+}
